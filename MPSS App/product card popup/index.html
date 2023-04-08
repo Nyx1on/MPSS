@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+   <!-- custom js file link  -->
+   <script src="js/script.js" defer></script>
+
+</head>
+<body>
+   
+<div class="container">
+
+   <h3 class="title"> MOTOR PARTS - Inventory</h3>
+
+   <div class="products-container">
+
+      <div class="product" data-name="p-1">
+         <img src="images/1.jpeg" alt="">
+         <h3>Pistons</h3>
+         <div class="available">PRODUCT_ID: 1</div>
+      </div>
+
+      <div class="product" data-name="p-2">
+         <img src="images/2.png" alt="">
+         <h3>Spark Plugs</h3>
+         <div class="available">PRODUCT_ID: 2</div>
+      </div>
+
+      <div class="product" data-name="p-3">
+         <img src="images/3.png" alt="">
+         <h3>Cranshaft</h3>
+         <div class="available">PRODUCT_ID: 3</div>
+      </div>
+
+      <div class="product" data-name="p-4">
+         <img src="images/4.png" alt="">
+         <h3>Timing Chain</h3>
+         <div class="available">PRODUCT_ID: 4</div>
+      </div>
+
+      <div class="product" data-name="p-5">
+         <img src="images/5.png" alt="">
+         <h3>Cylinder head</h3>
+         <div class="available">PRODUCT_ID: 5</div>
+      </div>
+
+      <div class="product" data-name="p-6">
+         <img src="images/6.png" alt="">
+         <h3>Gearbox</h3>
+         <div class="available">PRODUCT_ID: 6</div>
+      </div>
+
+   </div>
+
+</div>
+
+<div class="products-preview">
+
+   <div class="preview" data-target="p-1">
+      <i class="fas fa-times"></i>
+      <img src="images/1.jpeg" alt="">
+      <h3>Pistons</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( Threshold: 5 )</span>
+      </div>
+      <p>The piston is a moving part of the combustion chamber. It is responsible for converting the energy released during the combustion process into mechanical work</p>
+      <div class="available">Available Stock: 5</div>
+      <div class="buttons">
+         <a href="#" class="Add Stock">Add Stock</a>
+         <a href="#" class="cart">Sell Stock</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-2">
+      <i class="fas fa-times"></i>
+      <img src="images/2.png" alt="">
+      <h3>Spark Plugs</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( Threshold: 10 )</span>
+      </div>
+      <p>spark plugs are the spark of electricity that ignites the combustion needed to start your vehicle.</p>
+      <div class="available">Available Stock: 25</div>
+      <div class="buttons">
+         <a href="#" class="Add Stock">Add Stock</a>
+         <a href="#" class="cart">Sell Stock</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-3">
+      <i class="fas fa-times"></i>
+      <img src="images/3.png" alt="">
+      <h3>Crankshaft</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( Threshold: 5 )</span>
+      </div>
+      <p>The crankshaft is responsible for the proper operation of the engine and converting a linear motion to a rotational motion.</p>
+      <div class="available">Available Stock: 5</div>
+      <div class="buttons">
+         <a href="#" class="Add Stock">Add Stock</a>
+         <a href="#" class="cart">Sell Stock</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-4">
+      <i class="fas fa-times"></i>
+      <img src="images/4.png" alt="">
+      <h3>Timing Chain</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>(Threshold: 22 )</span>
+      </div>
+      <p>A timing chain is an internal engine component that's fitted to synchronise the rotation of the camshaft and the crankshaft — these two elements are essential for driving the wheels.</p>
+      <div class="available">Available Stock: 20</div>
+      <div class="buttons">
+         <a href="#" class="buy">Add Stock</a>
+         <a href="#" class="cart">Sell Stock</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-5">
+      <i class="fas fa-times"></i>
+      <img src="images/5.png" alt="">
+      <h3>Cylinder Head</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( Threshold: 7 )</span>
+      </div>
+      <p>Cylinder heads are key to controlling air flow in and out of the cylinders and fuel deployment.</p>
+      <div class="available">Available Stock: 20</div>
+      <div class="buttons">
+         <a href="#" class="Add Stock">Add Stock</a>
+         <a href="#" class="cart">Sell Stock</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-6">
+      <i class="fas fa-times"></i>
+      <img src="images/6.png" alt="">
+      <h3>Gearbox</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( Threshold: 5 )</span>
+      </div>
+      <p>The purpose of a gearbox is to increase or reduce speed. As a result, torque output will be the inverse of the speed function. 
+            The gearbox is a mechanical device that is used to change the speed and torque of a rotating power source.</p>
+      <div class="available">Available Stock: 35</div>
+      <div class="buttons">
+         <a href="#" class="Add Stock">Add Stock</a>
+         <a href="#" class="cart">Sell Stock</a>
+      </div>
+   </div>
+
+</div>
+
+</body>
+</html>
